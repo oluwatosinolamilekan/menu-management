@@ -24,6 +24,7 @@ Below are the steps you need to successfully setup and run the application.
 - Update DB credentials to match with your db
 - Run `php artisan migrate`
 - To run quick database generation for menus run `php artisan db:seed` (MenuFactory already implemented in the databaseeder);
+- Run `npm install`
 - Run `php artisan serve`
 - Run `npm  run dev`
 ## Features

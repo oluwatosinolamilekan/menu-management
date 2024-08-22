@@ -98,8 +98,11 @@ const Main: React.FC = () => {
                             />
                         </div>
                         <div className="flex space-x-4">
-                            <Button type="submit" className="bg-blue-500 hover:bg-blue-600">
-                                Save
+                        <Button
+                            type="submit"
+                            className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md"
+                            >
+                            Save
                             </Button>
                         </div>
                     </form>
